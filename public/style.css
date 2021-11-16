@@ -1,1 +1,258 @@
-/*empty*/
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Share+Tech+Mono");
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+@import url("https://fonts.googleapis.com/css?family=Exo+2:200i");
+
+
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0px 0px 0px;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+
+ #hamburger {
+    text-transform: uppercase;
+    background-color:#040704;
+    color: white;
+    border: 6px  dotted;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+ }
+
+ .button:hover {
+    cursor:pointer;
+    background-color: rgb(10, 97, 10);
+    color: white;
+    border: none;
+    position: relative;
+
+ }
+.button {
+    padding-top: 1px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: 30px;
+    width: 140px;
+    transition: 200ms;
+}
+
+
+.header {
+    background-image: url(https://thatsup.se/content/img/article/11/apr/uppsalas-b%C3%A4sta-barer.jpg);
+    min-width: 90vw;
+    min-height: 50vh;
+    background-position:30% ;
+}
+
+.HeaderOverLay{
+    min-height: 400px;
+    opacity: 70%;
+    background-color: #000000;
+}
+
+.burger{
+    display: inline-block;
+    
+    margin:auto;
+    background-color: none;
+    border:4px dotted rgb(224, 250, 230);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #050805;
+}
+
+#firstburger2{
+    
+}
+
+#secondburger2{
+
+}
+
+#thirdburger2{
+
+}
+
+
+.headerText{
+    font-family: 'Exo 2', sans-serif;
+    z-index: 4;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: rgb(226, 23, 40);
+    overflow:hidden;
+
+    text-align:center;
+    padding-top:50px;
+    width: 100%;
+    height:400px;
+
+
+    font-size: 90pt;
+    font-weight: 200;
+    font-style: italic;
+    color: #fff;
+    text-shadow:
+    0 0 7px rgb(253, 117, 67),
+    0 0 10px rgb(247, 82, 22),
+    0 0 21px #f40,
+    0 0 42px #f40,
+    0 0 82px #f40;
+    padding: 0rem 6rem 5.5rem;
+    border-radius: 2rem;
+    text-transform: uppercase;  
+}
+
+
+.wrapper {
+    display: grid;
+    grid-row-gap: 10px;
+    background-color: rgb(0, 0, 0);
+    grid-template-columns:auto;
+
+}
+#menu{
+    padding-left: 50px;
+}
+
+
+#cost {
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+.costumer{
+    background: linear-gradient(to right, #ecb641ef, rgb(0, 0, 0));
+    min-height: 500px;
+    padding-top: 50px;
+    border: 6px  solid #e9e9e9;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+#allergies{
+    font-family: "comic sans";
+    font-weight: bold;
+    font-size:16px;
+}
+
+.enter{
+    border-radius: 5px;
+    border: solid 1px;
+    height:20pt;
+}
+
+.burgerWrapper{
+    display:grid;
+    grid-template-columns: 26% 26% 26%;
+    padding-left: 30px;
+    grid-gap: 100px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.select{
+    font-family: IDAHO_Demo_V2_Conrad_Garner;
+    font-size: 24px;
+    background-color: #030503;
+    
+    position: relative;
+    margin-top:0;
+    padding-left: 15px;
+    top:0;
+    border:dotted transparent;
+}
+
+.burgerTitle{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa;
+    text-align: center;
+}
+
+.twoOfThree{
+background-color: #000000;
+
+}
+.copy{
+
+    color:white;
+}
+.socialMedia{
+
+    background-image: url("https://musicbiz.org/wp-content/uploads/2018/05/social-1.jpg");
+    min-height: 90px;
+    min-width: 70px;
+    background-position: 50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    grid-column: 4;
+    
+    
+}
+
+.footer{
+
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.copy{
+
+    grid-column: 1;
+}
+
+.firstCost{
+    grid-column: 1;
+    padding-left: 30px;
+}
+.neonSign {
+margin-top: 150px;
+margin-right:60px;
+grid-column: 2;
+font-size: 40px;
+
+  color: #fff;
+  font-style: italic;
+    color: #fff;
+    text-shadow:
+    0 0 7px rgb(253, 117, 67),
+    0 0 10px rgb(247, 82, 22),
+    0 0 21px #f40,
+    0 0 42px #f40,
+    0 0 82px #f40;
+    
+    width: 500px;
+    height: 150px;
+}
+.neonSign:hover{
+    color: #fff;
+    text-shadow:
+    0 0 7px rgb(65, 253, 65),
+    0 0 10px rgb(130, 252, 16),
+    0 0 21px rgb(130, 252, 16),
+    0 0 42px rgb(130, 252, 16),
+    0 0 82px rgb(130, 252, 16);
+
+}
+  
+  
