@@ -1,0 +1,31 @@
+
+[
+    {
+      "name": "Cheezy Breezy Burger",
+      "Kcal": 850,
+      "lactose": true,
+      "gluten": true,
+      "url": "https://www.foodrepublic.com/wp-content/uploads/2012/03/033_FR11785.jpg"
+    }
+    ,
+
+  
+    {
+      "name": "Veggie burger",
+      "Kcal": 700,
+      "lactose": true,
+      "gluten": true,
+      "url": "https://img.koket.se/standard-mega/hamburgare-med-hembakat-hamburgerbrod.jpg"
+    
+    }
+    ,
+
+    {
+      "name": "Chicked Wicked Heaven",
+      "Kcal": 950,
+      "lactose": false,
+      "gluten": true,
+      "url": "https://images.immediate.co.uk/production/volatile/sites/2/2017/06/Butchies-2.jpg?quality=90&resize=768%2C574"
+    }
+
+  ]
