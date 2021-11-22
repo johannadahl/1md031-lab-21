@@ -1,18 +1,31 @@
 <template>
   <div id="orders">
     <div id="orderList">
-      <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-        #{{ key }}: {{ order.orderItems.join(", ") }}
-      </div>
-      <button v-on:click="clearQueue">Clear Queue</button>
-    </div>
-    <div id="dots">
+          <div v-for="(order, key) in orders" v-bind:key="'order'+key">
+            <span>#{{key}}</span>
+            <br>
+            <span> Full name: {{order.form.fn}}<br></span>
+            <span> Ordered burgers: {{order.orderItems}}<br></span>
+            <span> Gender: {{order.form.gender}}<br></span>
+            <span> Pay: {{order.form.pay}}<br></span>
+            <span> E-mail: {{order.form.em}}<br></span>
+            <hr>
+          </div>
+
+            <button v-on:click="clearQueue">Clear Queue</button>
+        </div>
+        <div id="dots">
         <div v-for="(order, key) in orders" v-bind:style="{ left: order.details.x + 'px', top: order.details.y + 'px'}" v-bind:key="'dots' + key">
           {{ key }}
         </div>
     </div>
+
   </div>
+
+
 </template>
+
+
 <script>
 import io from 'socket.io-client'
 const socket = io();
